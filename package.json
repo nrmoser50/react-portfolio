@@ -29,6 +29,7 @@
     "react-markdown": "^9.0.1",
     "react-parallax": "^3.5.1",
     "react-router-dom": "^6.21.1",
+    "react-scripts": "^5.0.1",
     "react-spring": "^9.7.3",
     "three": "^0.160.0",
     "typed.js": "^2.1.0"
