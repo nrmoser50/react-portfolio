@@ -8,7 +8,7 @@ const Navigation = () => {
             <ul>
                 {navigationItems.map((item) => (
                     <li key={item}>
-                        <link href={`#${item.toLowerCase().replace(' ', ' ')}`}>{item}</link>
+                        <a href={`#${item.toLowerCase().replace(' ', ' ')}`}>{item}</a>
                     </li>
                 ))}
             </ul>
