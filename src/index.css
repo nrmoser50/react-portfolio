@@ -12,6 +12,27 @@ code {
     monospace;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+}
+
+.home-button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+}
 
 .navigation {
   position: fixed;
@@ -36,4 +57,13 @@ code {
   text-decoration: none;
   color: #333;
   font-weight: bold;
+}
+
+.home-image {
+  width: 100%;
+  height: 100%;
+  display:flex;
+  padding: 20px;
+  margin: 20px;
+  
 }

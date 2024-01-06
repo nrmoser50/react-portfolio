@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     const navigationItems = ['About Me', 'Portfolio', 'Contact', 'Resume'];
@@ -8,7 +9,7 @@ const Navigation = () => {
             <ul>
                 {navigationItems.map((item) => (
                     <li key={item}>
-                        <a href={`#${item.toLowerCase().replace(' ', ' ')}`}>{item}</a>
+                        <Link to={`/${item.toLowerCase().replace(' ', '-')}`}>{item}</Link>
                     </li>
                 ))}
             </ul>

@@ -15,12 +15,12 @@ const AboutMe = () => {
             <p>
               With a focus on [Specific Interests], I enjoy [What You Love Doing]. My goal is to [Your Aspirations or Mission].
             </p>
+            <div>
+            <img src="../../public/images/cat.jpg" alt='Cat' className="home-image" />
+            </div>
             <p>
               When I'm not immersed in design and development, you can find me [Hobbies or Other Interests]. Let's connect and explore how we can collaborate on exciting projects!
             </p>
-          </div>
-          <div className="about-me-image">
-            <img src="path/to/your-photo.jpg" alt="Your Name" />
           </div>
         </div>
       </div>
