@@ -15,8 +15,8 @@ const AboutMe = () => {
             <p>
               With a focus on [Specific Interests], I enjoy [What You Love Doing]. My goal is to [Your Aspirations or Mission].
             </p>
-            <div>
-            <img src="../../public/images/cat.jpg" alt='Cat' className="home-image" />
+            <div className="about-me-image">
+            <img src={require('../images/cat.jpg')} alt='Cat' style={{ width: '100%', height: 'auto' }} />
             </div>
             <p>
               When I'm not immersed in design and development, you can find me [Hobbies or Other Interests]. Let's connect and explore how we can collaborate on exciting projects!
